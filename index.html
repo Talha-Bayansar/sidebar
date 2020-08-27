@@ -8,23 +8,29 @@
     <script src="app.js" defer></script>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/50b1cd22af.js" crossorigin="anonymous"></script>
-    <title></title>
+    <title>Sidebar</title>
 </head>
 
 <body>
     <header>
-        <div class="sidebar">
-            <h1 class="logo">Logo</h1>
+        <button class="hamburger"><i class="fas fa-bars fa-2x"></i></button>
+    </header>
+
+    <div class="sidebar">
+        <div class="sidebar-content">
+            <div class="sidebar-header">
+                <h1 class="logo">Logo</h1>
+                <button class="close"><i class="fas fa-times fa-2x"></i></button>
+            </div>
             <nav>
                 <a href="#" class="nav-item">Home</a>
                 <a href="#" class="nav-item">About</a>
                 <a href="#" class="nav-item">Projects</a>
                 <a href="#" class="nav-item">Contact</a>
             </nav>
-            <button class="close"><i class="fas fa-times"></i></button>
         </div>
-        <button class="hamburger"><i class="fas fa-bars"></i></button>
-    </header>
+    </div>
+    <div class="space"></div>
 </body>
 
 </html>
