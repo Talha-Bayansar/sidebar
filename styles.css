@@ -17,8 +17,8 @@ body{
     color: var(--primaryColor);
 }
 
-.space{
-    height: 150vh;
+button{
+    outline: none;
 }
 
 /*=======================HEADER========================*/
@@ -57,7 +57,7 @@ header{
     width: 50%;
     background-color: white;
     box-shadow: 2px 0px 10px 0px rgba(0,0,0,0.2);
-    transition: all 0.5s ease;
+    transition: all 0.7s ease;
 }
 
 .sidebar-header{
@@ -111,7 +111,7 @@ nav{
 
 .nav-item:hover{
     background-color: var(--secondaryColorTransparent);
-    font-size: 1.75rem;
-    transition: 0.3s ease;
+    padding-left: 2rem;
+    transition: 0.5s ease;
     color: var(--secondaryColor);
 }
